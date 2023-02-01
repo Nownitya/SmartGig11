@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    >
+
+<!--    app:startDestination="@id/nav_home"-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_home"-->
+<!--        android:name="com.smartgig.ui.home_page.HomeFragment"-->
+<!--        android:label="fragment_home"-->
+<!--        tools:layout="@layout/fragment_home" >-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_reqLeave"-->
+<!--        android:name="com.smartgig.ui.request_leave.RequestLeaveFragment"-->
+<!--        android:label="fragment_request_leave"-->
+<!--        tools:layout="@layout/fragment_request_leave" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_leaveHistory"-->
+<!--        android:name="com.smartgig.ui.leave_history.LeaveHistoryFragment"-->
+<!--        android:label="fragment_leave_history"-->
+<!--        tools:layout="@layout/fragment_leave_history" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_paySleep"-->
+<!--        android:name="com.smartgig.ui.paysleep.PaySleepFragment"-->
+<!--        android:label="fragment_pay_sleep"-->
+<!--        tools:layout="@layout/fragment_pay_sleep" />-->
+<!--    -->
+<!--    <activity-->
+<!--        android:id="@+id/nav_SignOut"-->
+<!--        android:name="com.smartgig.ui.loginPage.LoginPage"-->
+<!--        android:label="activity_login_page"-->
+<!--        tools:layout="@layout/activity_login_page" />-->
+
+</navigation>

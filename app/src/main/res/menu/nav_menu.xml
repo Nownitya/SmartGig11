@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+<!--    <group android:checkableBehavior="single">-->
+
+        <group
+            android:id="@+id/grp_1"
+            android:checkableBehavior="single">
+                <item android:id="@+id/nav_home"
+                    android:title="Home"
+                    android:icon="@drawable/ic_baseline_home"
+                    >
+
+                </item>
+                <item android:id="@+id/nav_reqLeave"
+                    android:title="Apply Leave">
+
+                </item>
+
+                <item android:id="@+id/nav_leaveHistory"
+                    android:title="Leave History">
+
+                </item>
+
+                <item android:id="@+id/nav_paySleep"
+                    android:icon="@drawable/ic_baseline_out_24"
+                    android:title="Payslip">
+
+                </item>
+
+                <item
+                    android:id="@+id/nav_notification"
+                    android:title="Notification" >
+
+                </item>
+        </group>
+
+
+        <group android:id="@+id/grp_2"
+            android:checkableBehavior="single">
+                <item android:id="@+id/nav_logOut"
+                    android:icon="@drawable/ic_baseline_out_24"
+                    android:title="LogOut">
+
+                </item>
+
+        </group>
+
+
+<!--    </group>-->
+
+
+</menu>
+
+<!--    tools:showIn="navigation_view"-->

@@ -168,6 +168,17 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return true
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        SessionManager.clearData(this)
+//            val action = HomeFragmentDirections.actionHomeFragmentToLoginFragment()
+//            this.findNavController().navigate(action)
+        val intent = Intent(this, LoginPage::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY)
+        startActivity(intent)
+    }
+
     private fun changeFragment(frag: Fragment) {
         val fragment = supportFragmentManager.beginTransaction()
         fragment.replace(R.id.nav_host_fragment, frag).commit()

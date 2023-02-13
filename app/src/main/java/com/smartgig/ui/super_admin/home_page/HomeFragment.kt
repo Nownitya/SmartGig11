@@ -91,6 +91,7 @@ class HomeFragment : Fragment() {
         binding.pgBar.visibility = View.GONE
     }
 
+//    private fun fetchData(data: UserDetailResponse?)
     private fun fetchData(data: UserDetailResponse?) {
 
         if (!(data?.name).isNullOrEmpty()) {

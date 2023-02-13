@@ -2,7 +2,10 @@ package com.smartgig.constant
 
 object Constant {
 //    const val Base_Url = "http://13.232.73.1:8080/"
-    const val Base_Url = "http://13.232.116.42:8080"
+    //   Testing url
+//    const val Base_Url = "http://13.232.116.42:8080"
+    //  Production URL
+    const val Base_Url = "http://3.108.72.42:8080"
     const val USER_TOKEN = "USER_TOKEN"
     const val PREF_USER_TOKEN = "PREF_USER_TOKEN"
 
